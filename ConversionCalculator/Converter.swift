@@ -13,3 +13,10 @@ struct Converter {
     var inputUnit: String
     var outputUnit: String
 }
+
+enum ActionSheet {
+    case ftoc
+    case ctof
+    case mtok
+    case ktom
+}
